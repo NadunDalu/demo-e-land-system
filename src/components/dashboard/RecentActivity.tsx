@@ -50,7 +50,7 @@ export function RecentActivity({ logs }: RecentActivityProps) {
                 </p>
                 <span className="text-xs text-muted-foreground whitespace-nowrap flex items-center gap-1">
                   <Clock className="h-3 w-3" />
-                  {new Date(log.timestamp).toLocaleDateString()}
+                  {new Date(log.timestamp).toLocaleDateString()} at {new Date(log.timestamp).toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' })}
                 </span>
               </div>
               <p className="text-sm text-muted-foreground truncate">
