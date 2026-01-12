@@ -126,7 +126,10 @@ export default function AuthPage() {
                     Signing in...
                   </>
                 ) : (
-                  'Sign In'
+                  <>
+                    <Lock className="mr-2 h-4 w-4" />
+                    Sign In
+                  </>
                 )}
               </Button>
             </form>
