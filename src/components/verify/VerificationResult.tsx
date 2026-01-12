@@ -1,4 +1,4 @@
-import { CheckCircle2, XCircle, Hash, ArrowRight, Shield, AlertTriangle } from 'lucide-react';
+import { CheckCircle2, XCircle, Hash, ArrowRight, Shield, AlertTriangle, Clock } from 'lucide-react';
 import { cn } from '@/lib/utils';
 
 interface VerificationResultProps {
